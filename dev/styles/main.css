@@ -14,7 +14,7 @@ body {
 }
 body main .container {
   background-color: #fff;
-  width: 600px;
+  width: 800px;
   border: 2px solid #000;
   box-shadow: 0 0 1px 1px;
   border-radius: 5px;
@@ -41,12 +41,22 @@ body main .questions-container .answers-container {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   width: 400px;
+  margin-left: 20px;
+}
+body main .questions-container .answers-container .answer {
+  height: 60px;
 }
 body main .controls-container .next-question {
   margin-top: 22px;
 }
 body main .hide {
   display: none;
+}
+.correct {
+  background-color: green;
+}
+.incorrect {
+  background-color: red;
 }
 button {
   cursor: pointer;
